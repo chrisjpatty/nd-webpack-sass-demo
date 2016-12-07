@@ -1,13 +1,13 @@
 $primary-color: #1DD1E5;
 $neutral-color: #e0e0e0;
-$neutral-dark: #c1c1c1;
+$neutral-dark: darken($neutral-color, 12%);
 $secondary-color: #0A4875;
 $danger: #EA9683;
-$danger-dark: #de826d;
+$danger-dark: darken($danger, 8%);
 $warning: #EFDE70;
-$warning-dark: #decd5e;
+$warning-dark: darken($warning, 12%);
 $success: #82D668;
-$success-dark: #71bf59;
+$success-dark: darken($success, 13%);
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
